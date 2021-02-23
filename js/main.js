@@ -1,6 +1,6 @@
 function radioTitle() {
 
-    var url = ' '; //put the url to fetch currently playing here. For an icecast server, it looks like this 192.000.000/iradio.xspf
+    var url = http://162.210.196.140:28202/live
 
     $.ajax({
         type: 'GET',
@@ -52,7 +52,7 @@ $(document).ready(function() {
 	 player.jPlayer({
         ready: function() {
             $(this).jPlayer("setMedia", {
-                mp3: " " //Put the url of the server here such as 192.000.000.000/iradio
+                mp3: " " http://162.210.196.140:28202/live
             }).jPlayer("play");
         },
         swfPath: "",
