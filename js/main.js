@@ -1,6 +1,6 @@
 function radioTitle() {
 
-    var url = http://162.210.196.140:28202/live
+    var url = //162.210.196.140:28202/live
 
     $.ajax({
         type: 'GET',
@@ -52,7 +52,7 @@ $(document).ready(function() {
 	 player.jPlayer({
         ready: function() {
             $(this).jPlayer("setMedia", {
-                mp3: " " http://162.210.196.140:28202/live
+                mp3: " " //162.210.196.140:28202/live
             }).jPlayer("play");
         },
         swfPath: "",
